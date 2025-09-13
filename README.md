@@ -78,3 +78,18 @@ cmake --build .
 - Old important files moved to StoreWiseVault
 - Report printed in terminal
 - Vault files can be restored separately
+
+5. Tools and Technology Used
+| Category                         | Tool / Technology                     | Purpose / Role                                                    |
+| -------------------------------- | ------------------------------------- | ----------------------------------------------------------------- |
+| **Programming Language**         | C++17 / C++20                         | Core implementation, high performance, system-level file handling |
+| **Build System**                 | CMake                                 | Build and compile project across platforms                        |
+| **Compiler**                     | g++ / GCC                             | Compile C++ code                                                  |
+| **Filesystem**                   | `<filesystem>` (C++ standard library) | Scan, move, delete, check files and directories                   |
+| **File I/O**                     | `<fstream>`                           | Read, write, encrypt, and restore files                                             
+| **OS Compatibility**             | Linux (Codespaces) / Cross-platform   | Testing, running, and demo                                        |
+| **Command Line Interface (CLI)** | Terminal / shell                      | User interacts with program                                       |
+| **Version Control**              | Git / GitHub                          | Store and manage code, track versions                             |
+| **IDE / Code Editor**            | GitHub Codespaces                     | Cloud-based coding environment with pre-installed tools           |
+| **Optional Future Tools**        | OpenSSL / Crypto++ / zlib / Qt        | Stronger encryption, compression, GUI development                 |
+
